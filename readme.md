@@ -8,14 +8,30 @@
 
 **[Updates]**
 
+2018.11.26: 新录入中文语音识别数据集
+
 2018.11.6: 新录入文本生成数据集
 
 
 
 
-## 图像数据集
+## 图像数据集(分类检测分割)
 
 - [COCO](): coco图像分类，分割数据集；
+
+- KITTI: 自动驾驶的包含目标检测，激光雷达3D检查的数据集， http://www.cvlibs.net/datasets/kitti/eval_object.php 由于kitti数据集每次下载都要申请，为了简单，在本repo的scripts中包含了download kitti的一键下载脚本，可以直接下载;
+
+- VOC： 用于图片分类目标检测与风格的公开数据集，不过年代比较老了， http://host.robots.ox.ac.uk/pascal/VOC/;
+
+- 维基百科公式图片与文本：可以用来训练公式自动识别的AI，http://www.svcl.ucsd.edu/projects/crossmodal/;
+
+- Face/HeadsSegmentation: 精准的头部分割数据集：
+
+  ![](https://s1.ax1x.com/2018/11/27/FEL1MV.png)
+
+- Color names dataset: 直接从图片生成颜色的名字（为什么不生成颜色，还能提取主题色）：http://lear.inrialpes.fr/people/vandeweijer/data.html;
+
+- 
 
 
 
@@ -23,11 +39,26 @@
 
 
 
+## 单(多)目标跟踪数据集
+
+- DAVIS: 视频分割跟踪数据集 https://davischallenge.org/， 可以用来训练视频分割与跟踪模型;
+
+  ![](https://davischallenge.org/images/teaser/2017/choreography.jpg)
+
+- IMDB WIKI： 分男女的人脸标注数据集;
+
+  ![](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/static/img/imdb-wiki-teaser.png)
+
+- Central Pedestrian： 带有3D框标注的行人追踪数据集;
+
+  ![](https://s1.ax1x.com/2018/11/27/FELDsK.png)
+
+
 
 ## 语音数据集
 
 - [LJ](https://keithito.com/LJ-Speech-Dataset/): 语音识别合成数据集，英文，女声，质量高，2.6G左右
--  
+-  OpenSLR: An Open-Source Mandarin Speech Corpus and A Speech Recognition Baseline. 一个开源的中文语音数据集，下载地址：http://www.openslr.org/33/
 
 
 
@@ -37,7 +68,9 @@
 
 
 
-- 
+
+
+
 
 ## Others
 
