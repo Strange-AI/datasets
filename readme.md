@@ -7,7 +7,6 @@
 **[Updates]**
 
 2018.11.26: 新录入中文语音识别数据集
-
 2018.11.6: 新录入文本生成数据集
 
 
@@ -26,8 +25,7 @@
 - 维基百科公式图片与文本：可以用来训练公式自动识别的AI，http://www.svcl.ucsd.edu/projects/crossmodal/;
 
 - Face/HeadsSegmentation: 精准的头部分割数据集：
-
-  <img src="https://s1.ax1x.com/2018/11/27/FEL1MV.png" align=center></div>
+  <img src="https://s1.ax1x.com/2018/11/27/FEL1MV.png" align="center"/>
 
 - Color names dataset: 直接从图片生成颜色的名字（为什么不生成颜色，还能提取主题色）：http://lear.inrialpes.fr/people/vandeweijer/data.html;
 
@@ -50,7 +48,7 @@
 
 - Central Pedestrian： 带有3D框标注的行人追踪数据集;
 
-  <img src="https://s1.ax1x.com/2018/11/27/FELDsK.png" align="center">
+  <img src="https://s1.ax1x.com/2018/11/27/FELDsK.png" align="center"/>
 
 
 
