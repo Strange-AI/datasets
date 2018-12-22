@@ -63,8 +63,10 @@
 - [LJ](https://keithito.com/LJ-Speech-Dataset/): 语音识别合成数据集，英文，女声，质量高，2.6G左右
 -  OpenSLR: An Open-Source Mandarin Speech Corpus and A Speech Recognition Baseline. 一个开源的中文语音数据集，下载地址：http://www.openslr.org/33/
 
+- [VCTK](http://homepages.inf.ed.ac.uk/jyamagis/page3/page58/page58.html): English multi speaker datasets to train a TTS with multi sounds.
 
-
+- [Nancy](http://www.cstr.ed.ac.uk/projects/blizzard/2011/lessac_blizzard2011/): Nancy datasets for
+  text to speech system, this dataset more clear then LJ I think.
 
 
 
