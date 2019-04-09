@@ -6,8 +6,12 @@
 
 **Updates**
 
+- 2019.04.08: Add eVDS dataset
+
 - 2018.12.29: 新增几个图像分割数据集
+
 - 2018.11.26: 新录入中文语音识别数据集
+
 - 2018.11.6: 新录入文本生成数据集
 
 
@@ -17,6 +21,8 @@
 
 ## 图像数据集(分类检测分割)
 
+- [eVDS](https://engineering.purdue.edu/elab/eVDS/#download): A very good video dataset for different class object;
+ 
 - [COCO](): coco图像分类，分割数据集；
 
 - KITTI: 自动驾驶的包含目标检测，激光雷达3D检查的数据集， http://www.cvlibs.net/datasets/kitti/eval_object.php 由于kitti数据集每次下载都要申请，为了简单，在本repo的scripts中包含了download kitti的一键下载脚本，可以直接下载;
@@ -26,16 +32,17 @@
 - 维基百科公式图片与文本：可以用来训练公式自动识别的AI，http://www.svcl.ucsd.edu/projects/crossmodal/;
 
 - Face/HeadsSegmentation: 精准的头部分割数据集：
-    <div style="align: center">
+
+<p align="center">
     <img src="https://s1.ax1x.com/2018/11/27/FEL1MV.png" align="center" width="300"/>
-    </div>
+</p>
 
 - Color names dataset: 直接从图片生成颜色的名字（为什么不生成颜色，还能提取主题色）：http://lear.inrialpes.fr/people/vandeweijer/data.html;
 
 
 - [FASSEG](http://massimomauro.github.io/FASSEG-repository/): faces segmentation datasets. 精准的脸部分割数据集。
 
-  <div style="align:center"><img src="https://raw.githubusercontent.com/massimomauro/FASSEG-dataset/master/other/V1V2_diff.png" width="300"/></div>
+  <p align="center"><img src="https://raw.githubusercontent.com/massimomauro/FASSEG-dataset/master/other/V1V2_diff.png" width="300"/></p>
 
 
 该部分数据集可以直接在奇异AI官网首页快速进入: http://strangeai.pro
@@ -57,7 +64,7 @@
 
 - Central Pedestrian： 带有3D框标注的行人追踪数据集;
 
-  <div style="align:center"><img src="https://s1.ax1x.com/2018/11/27/FELDsK.png" width="300"/></div>
+  <p align="center"><img src="https://s1.ax1x.com/2018/11/27/FELDsK.png" width="300"/></p>
 
 
 
